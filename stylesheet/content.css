@@ -1,0 +1,23 @@
+body{
+  margin: 0 auto;
+ padding: 0;
+ height: 2810px;
+ width: 1440px;
+  background: black;
+}
+.atom {
+  width: 60%;
+  height: 55%;
+  display:block;
+  position: absolute;
+  background: url('../img/atom.png');
+  animation: atom 2s steps(1) infinite;
+}
+@keyframes atom {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
